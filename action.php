@@ -42,4 +42,6 @@ if (isset($_POST["action"])) {
     $object->execute_query($query);
     echo 'Data Updated';
   }
+  if ($_POST["action"] == "delete") {
+  }
 }
