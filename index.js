@@ -78,6 +78,8 @@ $(document).on("click", ".delete", function () {
     method: "POST",
     data: { user_id: user_id, action: action },
     dataType: "Json",
-    success: function (data) {},
+    success: function (data) {
+      alert(data);
+    },
   });
 });
